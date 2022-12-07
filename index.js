@@ -2,60 +2,49 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+const short = require("short-uuid");
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        message: "What is the name of your repository?",
+        message: "What is the name of your repository?\n",
         type: "input",
         name: "repoName",
     },
 
     {
-        message: "Enter the description of your project",
+        message: "Enter the description of your project\n",
         type: "input",
         name: "description",
     },
 
     {
-        message: "Enter the installation instructions of your project",
+        message: "Enter the installation instructions of your project\n",
         type: "input",
         name: "installation",
     },
 
     {
-        message: "Enter the usage information of your project",
+        message: "Enter the usage information of your project\n",
         type: "input",
         name: "usage",
     },
     {
-        message: "Enter the contribution guidelines of your project",
+        message: "Enter the contribution guidelines of your project\n",
         type: "input",
         name: "contribution",
     },
     {
-        message: "Enter the test instructions of your project",
+        message: "Enter the test instructions of your project\n",
         type: "input",
         name: "test",
     },
     {
-        message: "Choose the license of your project",
-        type: "list",
-        name: "license",
-        choices: [
-            "MIT",
-            "Apache",
-            "GNU GPLv2",
-            "GNU GPLv3",
-            "Other / No license",
-        ],
-    },
-    {
-        message: "Enter your GitHub username",
+        message: "Enter your GitHub username\n",
         type: "input",
         name: "username",
     },
     {
-        message: "Enter your email",
+        message: "Enter your email\n",
         type: "input",
         name: "email",
     },
@@ -76,7 +65,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) =>
-            writeToFile("generatedReadme.md", generateMarkdown(data))
+            writeToFile(`README_${short.generate()}.md`, generateMarkdown(data))
         );
 }
 
