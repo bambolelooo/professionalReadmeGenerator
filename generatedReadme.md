@@ -1,44 +1,25 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//     return license === "Apache"
-//         ? "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-//         : license === "GNU GPLv2"
-//         ? "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
-//         : license === "GNU GPLv3"
-//         ? " [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
-//         : license === "MIT"
-//         ? " [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
-//         : "";
-// }
 
-function generateGithubProjectURL(repoName, username) {
-    return `https://github.com/${username}/${repoName}/`;
-}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-    const projectURL = generateGithubProjectURL(data.repoName, data.username);
-    return `
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-<h3 align="center">${data.repoName}</h3>
+<h3 align="center">gfdsgfd</h3>
 
   <p align="center">
+    project_description
     <br />
-    <a href="${projectURL}"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/dsfgds/gfdsgfd/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="${projectURL}/issues">Report Bug</a>
+    <a href="https://github.com/dsfgds/gfdsgfd//issues">Report Bug</a>
     ·
-    <a href="${projectURL}/issues">Request Feature</a>
+    <a href="https://github.com/dsfgds/gfdsgfd//issues">Request Feature</a>
   </p>
 </div>
 
@@ -64,6 +45,7 @@ function generateMarkdown(data) {
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -72,7 +54,8 @@ function generateMarkdown(data) {
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-${data.description}
+
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: "dsfgds", "gfdsgfd", "twitter_handle", "linkedin_username", "email_client", "email", "project_title", "project_description"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +76,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-${data.installation}
+dsg
    
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,7 +86,9 @@ ${data.installation}
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-${data.usage}
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,9 +124,9 @@ Distributed under the MIT License. See "LICENSE.txt" for more information.
 <!-- CONTACT -->
 ## Contact
 
-${data.username} - ${data.email}
+dsfgds - gfdsgfdsg
 
-Project Link: [${projectURL}](${projectURL})
+Project Link: [https://github.com/dsfgds/gfdsgfd/](https://github.com/dsfgds/gfdsgfd/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,17 +134,13 @@ Project Link: [${projectURL}](${projectURL})
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/${data.username}/${data.repoName}.svg?style=for-the-badge
-[contributors-url]: ${projectURL}/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/${data.username}/${data.repoName}.svg?style=for-the-badge
-[forks-url]: ${projectURL}/network/members
-[stars-shield]: https://img.shields.io/github/stars/${data.username}/${data.repoName}.svg?style=for-the-badge
-[stars-url]: ${projectURL}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/${data.username}/${data.repoName}.svg?style=for-the-badge
-[issues-url]: ${projectURL}/issues
-[license-shield]: https://img.shields.io/github/license/${data.username}/${data.repoName}.svg?style=for-the-badge
-[license-url]: ${projectURL}/blob/master/LICENSE.txt
-`;
-}
-
-module.exports = generateMarkdown;
+[contributors-shield]: https://img.shields.io/github/contributors/dsfgds/gfdsgfd.svg?style=for-the-badge
+[contributors-url]: https://github.com/dsfgds/gfdsgfd//graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dsfgds/gfdsgfd.svg?style=for-the-badge
+[forks-url]: https://github.com/dsfgds/gfdsgfd//network/members
+[stars-shield]: https://img.shields.io/github/stars/dsfgds/gfdsgfd.svg?style=for-the-badge
+[stars-url]: https://github.com/dsfgds/gfdsgfd//stargazers
+[issues-shield]: https://img.shields.io/github/issues/dsfgds/gfdsgfd.svg?style=for-the-badge
+[issues-url]: https://github.com/dsfgds/gfdsgfd//issues
+[license-shield]: https://img.shields.io/github/license/dsfgds/gfdsgfd.svg?style=for-the-badge
+[license-url]: https://github.com/dsfgds/gfdsgfd//blob/master/LICENSE.txt
