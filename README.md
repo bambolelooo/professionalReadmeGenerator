@@ -56,8 +56,7 @@ Just follow the questions. You can use md syntax if needed. The generated README
 <br>
 ![image](https://user-images.githubusercontent.com/63548697/206310727-739e4705-3ff2-49a0-b17b-f02fdc80ff8d.png)
 <br>
-View the usage video
-https://drive.google.com/file/d/1H--4L3IIWpImKS6u8GuVU95jwHlW6T6b/view
+View the usage [video](https://drive.google.com/file/d/1H--4L3IIWpImKS6u8GuVU95jwHlW6T6b/view)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
