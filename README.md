@@ -43,8 +43,8 @@ This node script will generate a high quality README.md for your repo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
-
-git clone repo <br>npm install<br>node index.js
+You must have node v16 installed on your pc.<br>
+git clone repoURL <br>npm install<br>node index.js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
