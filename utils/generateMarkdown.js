@@ -5,7 +5,7 @@ function generateGithubProjectURL(repoName, username) {
 function generateMarkdown(data) {
     const projectURL = generateGithubProjectURL(data.repoName, data.username);
     return `
-<a name="readme-top"></a>
+<a id="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
