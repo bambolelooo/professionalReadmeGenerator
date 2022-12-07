@@ -52,7 +52,10 @@ git clone repo <br>npm install<br>node index.js
 
 ## Usage
 
-Just follow the questions. You can use md syntax if needed
+Just follow the questions. You can use md syntax if needed. The generated README.md will be stored in utils folder with unique id.
+![image](https://user-images.githubusercontent.com/63548697/206310727-739e4705-3ff2-49a0-b17b-f02fdc80ff8d.png)
+View the usage video
+https://drive.google.com/file/d/1H--4L3IIWpImKS6u8GuVU95jwHlW6T6b/view
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +79,7 @@ Please do not contribute, this is schoolwork
 
 ## Contact
 
-bambolelooo - evlanov.ilya@gmail.com
+@bambolelooo - evlanov.ilya@gmail.com
 
 Project Link: [https://github.com/bambolelooo/professionalReadmeGenerator/](https://github.com/bambolelooo/professionalReadmeGenerator/)
 
