@@ -65,7 +65,10 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) =>
-            writeToFile(`README_${short.generate()}.md`, generateMarkdown(data))
+            writeToFile(
+                `./utils/README_${short.generate()}.md`,
+                generateMarkdown(data)
+            )
         );
 }
 
