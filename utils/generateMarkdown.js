@@ -112,7 +112,7 @@ Project Link: [${projectURL}](${projectURL})
 [issues-shield]: https://img.shields.io/github/issues/${data.username}/${data.repoName}.svg?style=for-the-badge
 [issues-url]: ${projectURL}/issues
 [license-shield]: https://img.shields.io/github/license/${data.username}/${data.repoName}.svg?style=for-the-badge
-[license-url]: ${projectURL}/blob/main/LICENSE.txt
+[license-url]: ${projectURL}/blob/main/LICENSE
 `;
 }
 
